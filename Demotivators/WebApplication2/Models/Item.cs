@@ -11,7 +11,7 @@ namespace WebApplication2.Models
 {
     using System;
     using System.Collections.Generic;
-    
+    //Test
     public partial class Item
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
