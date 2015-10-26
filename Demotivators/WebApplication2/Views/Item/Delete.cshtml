@@ -5,77 +5,87 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Delete</h2>
+<style>
+	.btn a {
+		color: black;
+		text-decoration: none;
+	}
+</style>
 
 <h3>Are you sure you want to delete this?</h3>
+
 <div>
-    <h4>Item</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
-            @Html.DisplayNameFor(model => model.Name_Item)
-        </dt>
+	<dl class="dl-horizontal">
+		<dt>
+			Name
+		</dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Name_Item)
-        </dd>
+		<dd>
+			@Html.DisplayFor(model => model.Name_Item)
+		</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Date_Creation)
-        </dt>
+		<dt>
+			Date of creation
+		</dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Date_Creation)
-        </dd>
+		<dd>
+			@Html.DisplayFor(model => model.Date_Creation)
+		</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Url_Img_Original)
-        </dt>
+		<dt>
+			URL of image
+		</dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Url_Img_Original)
-        </dd>
+		<dd>
+			@Html.DisplayFor(model => model.Url_Img_Original)
+		</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Url_Img_Done_Item)
-        </dt>
+		<dt>
+			URL of result
+		</dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Url_Img_Done_Item)
-        </dd>
+		<dd>
+			@Html.DisplayFor(model => model.Url_Img_Done_Item)
+		</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Header_Text)
-        </dt>
+		<dt>
+			Header-text
+		</dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Header_Text)
-        </dd>
+		<dd>
+			@Html.DisplayFor(model => model.Header_Text)
+		</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.Text)
-        </dt>
+		<dt>
+			Text
+		</dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.Text)
-        </dd>
+		<dd>
+			@Html.DisplayFor(model => model.Text)
+		</dd>
 
-        <dt>
-            @Html.DisplayNameFor(model => model.AspNetUsers.Email)
-        </dt>
+		<dt>
+			Author
+		</dt>
 
-        <dd>
-            @Html.DisplayFor(model => model.AspNetUsers.Email)
-        </dd>
+		<dd>
+			@Html.DisplayFor(model => model.AspNetUsers.UserName)
+		</dd>
 
-    </dl>
+	</dl>
 
     @using (Html.BeginForm()) {
         @Html.AntiForgeryToken()
 
         <div class="form-actions no-color">
-            <input type="submit" value="Delete" class="btn btn-default" /> |
-            @Html.ActionLink("Back to List", "Index")
+            <input type="submit" value="Delete" class="btn btn-danger" /> 
+
+           
         </div>
     }
+</div>
+<br />
+<div>
+	@Html.ActionLink("Back to List", "Index")
 </div>

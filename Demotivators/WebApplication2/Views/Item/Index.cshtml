@@ -7,40 +7,43 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Index</h2>
+<h2>Your demotivators</h2>
 
 <style>
-    .btn a {color:black; text-decoration:none;}
+	.btn a {
+		color: white;
+		text-decoration: none;
+	}
 </style>
 
 <p>
-    <div class="btn btn-default">
-      @Html.ActionLink("Create","Create")
+    <div class="btn btn-success">
+      @Html.ActionLink("Create new","Create")
     </div>
 
 </p>
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Name_Item)
+			<h3>Name</h3> 
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Date_Creation)
+			<h3>Date of creation</h3> 
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Url_Img_Original)
+			<h3>URL of image</h3> 
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Url_Img_Done_Item)
+			<h3>URL of result</h3> 
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Header_Text)
+			<h3>Header-text</h3> 
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Text)
+			<h3>Text</h3> 
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.AspNetUsers.Email)
+			<h3>Author</h3> 
         </th>
         <th></th>
     </tr>
@@ -66,7 +69,7 @@
             @Html.DisplayFor(modelItem => item.Text)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.AspNetUsers.Email)
+            @Html.DisplayFor(modelItem => item.AspNetUsers.UserName)
         </td>
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |

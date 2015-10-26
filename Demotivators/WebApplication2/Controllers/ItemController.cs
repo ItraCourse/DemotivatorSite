@@ -14,6 +14,7 @@ using Microsoft.AspNet.Identity;
 
 namespace WebApplication2.Controllers
 {
+	[Authorize]
     public class ItemController : Controller
     {
         private DbEntities db = new DbEntities();
@@ -21,8 +22,12 @@ namespace WebApplication2.Controllers
         // GET: Item
         public async Task<ActionResult> Index()
         {
-            var item = db.Item.Include(i => i.AspNetUsers);
-            return View(await item.ToListAsync());
+//add
+			string CurrentUserId = User.Identity.GetUserId();
+            var items = db.Item
+			.Include(i => i.AspNetUsers)
+			.Where(i => i.AspNetUsersId == CurrentUserId);
+            return View(await items.ToListAsync());
         }
 
         // GET: Item/Details/5
@@ -43,7 +48,9 @@ namespace WebApplication2.Controllers
         // GET: Item/Create
         public ActionResult Create()
         {
-            ViewBag.AspNetUsersId = User.Identity.GetUserId();
+//add
+            //ViewBag.AspNetUserId = User.Identity.GetUserId();
+			ViewBag.AspNetUsersId = new SelectList(db.AspNetUsers, "Id", "Email");
             return View();
         }
 
@@ -56,6 +63,9 @@ namespace WebApplication2.Controllers
         {
             if (ModelState.IsValid)
             {
+//add
+				item.AspNetUsersId = User.Identity.GetUserId();
+				item.Date_Creation = DateTime.Now;
                 db.Item.Add(item);
                 await db.SaveChangesAsync();
                 return RedirectToAction("Index");
@@ -77,7 +87,8 @@ namespace WebApplication2.Controllers
             {
                 return HttpNotFound();
             }
-            ViewBag.AspNetUsersId = User.Identity.GetUserId();
+            //ViewBag.AspNetUsersId = User.Identity.GetUserId();
+			ViewBag.AspNetUsersId = new SelectList(db.AspNetUsers, "Id", "Email", item.AspNetUsersId);
             return View(item);
         }
 
@@ -94,7 +105,9 @@ namespace WebApplication2.Controllers
                 await db.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
-            ViewBag.AspNetUsersId = User.Identity.GetUserId();
+//add
+            //ViewBag.AspNetUsersId = User.Identity.GetUserId();
+			ViewBag.AspNetUserId = new SelectList(db.AspNetUsers, "Id", "Email", item.AspNetUsersId);
             return View(item);
         }
 
