@@ -1,0 +1,234 @@
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\WebApplication2.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Antlr3.Runtime.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\EntityFramework.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.Google.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Newtonsoft.Json.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Owin.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.Helpers.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.Mvc.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.Optimization.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.Razor.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.WebPages.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\WebGrease.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.Helpers.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.Mvc.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.Optimization.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.Razor.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.WebPages.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\System.Web.WebPages.Razor.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Antlr3.Runtime.pdb
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Newtonsoft.Json.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\EntityFramework.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\EntityFramework.SqlServer.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.Google.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Итра\Задание №4\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+E:\Итра\Задание №4\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+E:\Итра\Задание №4\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
+E:\Итра\Задание №4\WebApplication2\WebApplication2\obj\Debug\WebApplication2.App_LocalResources.GlobalRes.resources
+E:\Итра\Задание №4\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.GenerateResource.Cache
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\WebApplication2.dll.config
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\WebApplication2.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\WebApplication2.pdb
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Antlr3.Runtime.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\EntityFramework.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\EntityFramework.SqlServer.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Google.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Newtonsoft.Json.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Owin.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.Helpers.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.Mvc.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.Optimization.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.Razor.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.Razor.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\WebGrease.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.Helpers.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.Mvc.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.Optimization.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.Razor.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.Razor.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Antlr3.Runtime.pdb
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Newtonsoft.Json.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\EntityFramework.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\EntityFramework.SqlServer.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Google.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.App_LocalResources.GlobalRes.resources
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.csproj.GenerateResource.Cache
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.dll
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.pdb
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.Migrations.InitialCreate.resources
+E:\Итра\Задание №4\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.Migrations.MigrateDB.resources
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\WebApplication2.dll.config
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\WebApplication2.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\WebApplication2.pdb
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Antlr3.Runtime.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\EntityFramework.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\EntityFramework.SqlServer.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Google.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Newtonsoft.Json.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Owin.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Helpers.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Mvc.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Optimization.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Razor.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.Razor.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\WebGrease.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Helpers.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Mvc.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Optimization.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Razor.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.Razor.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Antlr3.Runtime.pdb
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Newtonsoft.Json.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\EntityFramework.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\EntityFramework.SqlServer.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Google.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.App_LocalResources.GlobalRes.resources
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.Migrations.InitialCreate.resources
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.Migrations.MigrateDB.resources
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.csproj.GenerateResource.Cache
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.dll
+E:\Итра\Задание №4\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\WebApplication2.dll.config
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\WebApplication2.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\WebApplication2.pdb
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Antlr3.Runtime.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\EntityFramework.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\EntityFramework.SqlServer.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.Core.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Cookies.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Facebook.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Google.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.OAuth.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Twitter.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Web.Infrastructure.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Newtonsoft.Json.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Owin.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Helpers.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Mvc.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Optimization.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Razor.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.Deployment.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.Razor.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\WebGrease.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Helpers.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Mvc.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Optimization.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.Razor.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.Deployment.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\System.Web.WebPages.Razor.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Antlr3.Runtime.pdb
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Newtonsoft.Json.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\EntityFramework.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\EntityFramework.SqlServer.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.Core.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Facebook.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Cookies.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.OAuth.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Google.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.Twitter.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.App_LocalResources.GlobalRes.resources
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.Migrations.InitialCreate.resources
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.Migrations.MigrateDB.resources
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.csproj.GenerateResource.Cache
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.dll
+C:\CourseWork\new\WebApplication2 (2)\WebApplication2\obj\Debug\WebApplication2.pdb

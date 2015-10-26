@@ -1,0 +1,79 @@
+﻿@using WebApplication2.Models; 
+
+@model IEnumerable<WebApplication2.Models.Item>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<style>
+    .btn a {color:black; text-decoration:none;}
+</style>
+
+<p>
+    <div class="btn btn-default">
+      @Html.ActionLink("Create","Create")
+    </div>
+
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name_Item)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date_Creation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Url_Img_Original)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Url_Img_Done_Item)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Header_Text)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Text)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AspNetUsers.Email)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name_Item)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Date_Creation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Url_Img_Original)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Url_Img_Done_Item)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Header_Text)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Text)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AspNetUsers.Email)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

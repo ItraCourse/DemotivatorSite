@@ -1,0 +1,32 @@
+﻿    @model WebApplication2.Models.IndexViewModel
+@{
+    ViewBag.Title = "Users List";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<hr />
+<table align="center" border="1" width="75%" cellpadding="10">
+    <tr bgcolor="#520c74">
+        <td align="center"><font color="#fff">E-mail</font></td>
+        <td align="center"><font color="#fff">Manage</font></td>
+    </tr>
+        @foreach (var item in Model.Users)
+        {
+
+        <tr>
+            <td align="center">
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td align="center">
+                @using (Html.BeginForm("DeleteUser", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                {
+                    <button type="submit" value="@item.Email" name="emai" class="btn btn-default">Delete</button>
+                }
+
+            </td>
+        </tr>
+        }
+    </table>
+

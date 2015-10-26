@@ -1,0 +1,27 @@
+﻿@model WebApplication2.Models.DeleteViewModel
+@{
+    ViewBag.Title = "ManageUser";
+}
+
+<h2>@ViewBag.Title.</h2>
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <h4>Изменение параметров учетной записи</h4>
+
+    <dl class="dl-horizontal">
+        <ul>
+            @foreach (var item in Model.Users)
+            {
+                <li>
+                    @Html.DisplayFor(modelItem => item.Email)
+                    @using (Html.BeginForm("DeleteUser", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+                    {
+
+                        <button type="submit" value="@item.Email" name="emai" class="btn btn-default">Delete</button>
+                    }
+                </li>
+            }
+
+        </ul>
+    </dl>
+</div>
