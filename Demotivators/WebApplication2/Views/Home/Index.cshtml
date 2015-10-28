@@ -1,7 +1,22 @@
-﻿@{
+﻿@model IEnumerable<WebApplication2.Models.Item>
+
+@{
     ViewBag.Title = "Home Page";
+	Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <div class="jumbotron">
     <h1 align="center">This site is magnificent!</h1>
 </div>
+
+
+
+	       @foreach (var item in Model) {
+
+		<li>
+			@Html.ActionLink(item.Name_Item, "Details", "Item", new { id = item.Id }, null)---------@item.AspNetUsers.UserName
+		</li>
+       }
+	
+
+

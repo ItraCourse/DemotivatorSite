@@ -14,6 +14,22 @@
 
 <h2>Details</h2>
 
+<style>
+	 #canvas-container {
+		 position: relative;
+		 width: 900px;
+		 height: 550px;
+		 box-shadow: 0 0 5px 1px black;
+		 margin: 10px auto;
+		 border: 5px solid transparent;
+	}
+		#canvas-container.over {
+			border: 1px dashed #000000;
+		} 
+</style>
+
+
+
 <div>
     <hr />
     <dl class="dl-horizontal">
@@ -23,14 +39,24 @@
 
         <dd>
             @Html.DisplayFor(model => model.Name_Item)
+			@Html.EditorFor(model => model.Url_Img_Original, new { htmlAttributes = new { @class = "form-control", id = "OriginalImage", type = "hidden" } })
+			@Html.EditorFor(model => model.Header_Text, new { htmlAttributes = new { @class = "form-control", id = "Header-Text", type = "hidden" } })
+			@Html.EditorFor(model => model.Text, new { htmlAttributes = new { @class = "form-control", id = "Text", type = "hidden" } })
         </dd>
+		<dt>
+			Date
+		</dt>
 
+		<dd>
+			@Html.DisplayFor(model => model.Date_Creation)
+		</dd>
+<!--
         <dt>
 			Date of creation
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Date_Creation)
+            Html.DisplayFor(model => model.Date_Creation)
         </dd>
 
         <dt>
@@ -38,7 +64,7 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Url_Img_Original)
+            Html.DisplayFor(model => model.Url_Img_Original)
         </dd>
 
         <dt>
@@ -46,7 +72,7 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Url_Img_Done_Item)
+            Html.DisplayFor(model => model.Url_Img_Done_Item)
         </dd>
 
         <dt>
@@ -54,7 +80,7 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Header_Text)
+            Html.DisplayFor(model => model.Header_Text)
         </dd>
 
         <dt>
@@ -62,7 +88,7 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.Text)
+            Html.DisplayFor(model => model.Text)
         </dd>
 
         <dt>
@@ -70,20 +96,21 @@
         </dt>
 
         <dd>
-            @Html.DisplayFor(model => model.AspNetUsers.UserName)
+            Html.DisplayFor(model => model.AspNetUsers.UserName)
         </dd>
-
+		-->
     </dl>
+	<div id="canvas-container">
+		<canvas id="canvas" width="900" height="550"></canvas>
+	</div>
 </div>
 
-
-<p>
-	<div class="btn btn-primary">
-		@Html.ActionLink("Edit", "Edit", new { id = Model.Id })
-	</div>  
-</p>
 
 <br />
 <div>
 	@Html.ActionLink("Back to List", "Index")
-</div>  
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/fabric.js"></script> 
+<script src="~/Scripts/ItemDetails.js"></script>

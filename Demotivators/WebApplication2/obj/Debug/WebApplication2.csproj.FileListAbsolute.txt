@@ -291,3 +291,13 @@ C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\obj\Debug\WebApplication2
 C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\obj\Debug\WebApplication2.csproj.GenerateResource.Cache
 C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\obj\Debug\WebApplication2.dll
 C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\obj\Debug\WebApplication2.pdb
+C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\IronRuby.dll
+C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\IronRuby.Libraries.dll
+C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\IronRuby.Libraries.Yaml.dll
+C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\Microsoft.Dynamic.dll
+C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\Microsoft.Scripting.dll
+C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\Microsoft.Scripting.Metadata.dll
+C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\SassAndCoffee.AspNet.dll
+C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\SassAndCoffee.Core.dll
+C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\SassAndCoffee.JavaScript.dll
+C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\SassAndCoffee.Ruby.dll

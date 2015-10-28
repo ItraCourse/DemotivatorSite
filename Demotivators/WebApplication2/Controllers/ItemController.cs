@@ -17,40 +17,38 @@ namespace WebApplication2.Controllers
 	[Authorize]
     public class ItemController : Controller
     {
-        private DbEntities db = new DbEntities();
+        private DbEntities context = new DbEntities();
 
         // GET: Item
         public async Task<ActionResult> Index()
         {
-//add
 			string CurrentUserId = User.Identity.GetUserId();
-            var items = db.Item
+            var items = context.Item
 			.Include(i => i.AspNetUsers)
 			.Where(i => i.AspNetUsersId == CurrentUserId);
             return View(await items.ToListAsync());
         }
 
         // GET: Item/Details/5
+		[AllowAnonymous]
         public async Task<ActionResult> Details(int? id)
         {
             if (id == null)
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Item item = await db.Item.FindAsync(id);
+            Item item = await context.Item.FindAsync(id);
             if (item == null)
             {
                 return HttpNotFound();
             }
             return View(item);
         }
-
         // GET: Item/Create
         public ActionResult Create()
         {
-//add
             //ViewBag.AspNetUserId = User.Identity.GetUserId();
-			ViewBag.AspNetUsersId = new SelectList(db.AspNetUsers, "Id", "Email");
+			ViewBag.AspNetUsersId = new SelectList(context.AspNetUsers, "Id", "Email");
             return View();
         }
 
@@ -63,11 +61,10 @@ namespace WebApplication2.Controllers
         {
             if (ModelState.IsValid)
             {
-//add
 				item.AspNetUsersId = User.Identity.GetUserId();
 				item.Date_Creation = DateTime.Now;
-                db.Item.Add(item);
-                await db.SaveChangesAsync();
+                context.Item.Add(item);
+                await context.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
 
@@ -82,13 +79,13 @@ namespace WebApplication2.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Item item = await db.Item.FindAsync(id);
+            Item item = await context.Item.FindAsync(id);
             if (item == null)
             {
                 return HttpNotFound();
             }
             //ViewBag.AspNetUsersId = User.Identity.GetUserId();
-			ViewBag.AspNetUsersId = new SelectList(db.AspNetUsers, "Id", "Email", item.AspNetUsersId);
+			ViewBag.AspNetUsersId = new SelectList(context.AspNetUsers, "Id", "Email", item.AspNetUsersId);
             return View(item);
         }
 
@@ -101,13 +98,12 @@ namespace WebApplication2.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(item).State = EntityState.Modified;
-                await db.SaveChangesAsync();
+                context.Entry(item).State = EntityState.Modified;
+                await context.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
-//add
             //ViewBag.AspNetUsersId = User.Identity.GetUserId();
-			ViewBag.AspNetUserId = new SelectList(db.AspNetUsers, "Id", "Email", item.AspNetUsersId);
+			ViewBag.AspNetUserId = new SelectList(context.AspNetUsers, "Id", "Email", item.AspNetUsersId);
             return View(item);
         }
 
@@ -118,7 +114,7 @@ namespace WebApplication2.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Item item = await db.Item.FindAsync(id);
+            Item item = await context.Item.FindAsync(id);
             if (item == null)
             {
                 return HttpNotFound();
@@ -131,9 +127,9 @@ namespace WebApplication2.Controllers
         [ValidateAntiForgeryToken]
         public async Task<ActionResult> DeleteConfirmed(int id)
         {
-            Item item = await db.Item.FindAsync(id);
-            db.Item.Remove(item);
-            await db.SaveChangesAsync();
+            Item item = await context.Item.FindAsync(id);
+            context.Item.Remove(item);
+            await context.SaveChangesAsync();
             return RedirectToAction("Index");
         }
 
@@ -141,7 +137,7 @@ namespace WebApplication2.Controllers
         {
             if (disposing)
             {
-                db.Dispose();
+                context.Dispose();
             }
             base.Dispose(disposing);
         }

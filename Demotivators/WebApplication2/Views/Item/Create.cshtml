@@ -5,6 +5,24 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<style>
+	 #canvas-container {
+		 position: relative;
+		 width: 900px;
+		 height: 550px;
+		 box-shadow: 0 0 5px 1px black;
+		 margin: 10px auto;
+		 border: 5px solid transparent;
+		
+	}
+
+		#canvas-container.over {
+			border: 1px dashed #000000;
+		
+</style>
+
+
+
 <h2>Creating demotivators</h2>
 
 @using (Html.BeginForm()) 
@@ -14,6 +32,11 @@
     <div class="form-horizontal">
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+		<div id="canvas-container">
+		 <canvas id="canvas" width="900" height="550"></canvas>
+		</div>
+
         <div class="form-group">
 			<div class="control-label col-md-2"><b>Name</b></div>
             <div class="col-md-10">
@@ -24,7 +47,7 @@
         <div class="form-group">
 			<div class="control-label col-md-2"><b>URL of image</b></div>
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Url_Img_Original, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.Url_Img_Original, new { htmlAttributes = new { @class = "form-control", id = "OriginalImage" } })
                 @Html.ValidationMessageFor(model => model.Url_Img_Original, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -32,7 +55,7 @@
         <div class="form-group">
 			<div class="control-label col-md-2"><b>URL of result</b></div>
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Url_Img_Done_Item, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.Url_Img_Done_Item, new { htmlAttributes = new { @class = "form-control"} })
                 @Html.ValidationMessageFor(model => model.Url_Img_Done_Item, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -40,7 +63,7 @@
         <div class="form-group">
 			<div class="control-label col-md-2"><b>Header-text</b></div>
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Header_Text, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.Header_Text, new { htmlAttributes = new { @class = "form-control", id = "Header-Text"} })
                 @Html.ValidationMessageFor(model => model.Header_Text, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -48,13 +71,14 @@
         <div class="form-group">
 			<div class="control-label col-md-2"><b>Text</b></div>
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Text, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.Text, new { htmlAttributes = new { @class = "form-control", id = "Text" } })
                 @Html.ValidationMessageFor(model => model.Text, "", new { @class = "text-danger" })
             </div>
         </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" value="Create" class="btn btn-primary" />
+				<input type="button" value="Preview" id="textin" class="btn btn-default" />
             </div>
         </div>
     </div>
@@ -63,3 +87,9 @@
 <div>
     @Html.ActionLink("Back to List", "Index")
 </div>
+
+<script src="~/Scripts/fabric.js"></script>
+<script src="~/Scripts/ItemCreate.js"></script>
+@section Scripts {
+	@Scripts.Render("~/bundles/jqueryval")
+}
