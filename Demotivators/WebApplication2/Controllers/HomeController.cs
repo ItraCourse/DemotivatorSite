@@ -19,9 +19,9 @@ namespace WebApplication2.Controllers
     {      
         public async Task<ActionResult> Index()
          {
-			DbEntities context = new DbEntities();
-            var items = context.Item.Include(i => i.AspNetUsers);
-			return View(await items.ToListAsync());
+			int numberOfRecentItems = 5;
+			var sortedItems = GetRecentItems(numberOfRecentItems);
+			return View(await sortedItems.ToListAsync());
          }
 
         public ActionResult About()
@@ -37,5 +37,31 @@ namespace WebApplication2.Controllers
 
             return View();
         }
+
+		private IQueryable<Item> GetRecentItems(int howMany)
+		{
+			DbEntities context = new DbEntities();
+			var items = context.Item.Include(i => i.AspNetUsers);
+			var sortedItems = items.OrderByDescending(i => i.Date_Creation)
+			.Take(howMany);
+			return sortedItems;
+		}
+
+		private IEnumerable<Item> GetTopCreators(int howMany)
+		{
+		DbEntities context = new DbEntities();
+			var items = context.Item.Include(i => i.AspNetUsers);
+			IEnumerable<IGrouping<string, Item>> outerSequence = items.GroupBy(i => i.AspNetUsersId);
+			var sortedGroups = outerSequence.OrderByDescending(g => g.Count())
+			.Take(howMany);
+			List<Item> itemList = new List<Item>();					
+			foreach (IGrouping<string, Item> keyGroupSequence in sortedGroups)
+			{
+				itemList.Add(keyGroupSequence.First());
+			}
+			return itemList;
+			}
+		
+
     }
 }

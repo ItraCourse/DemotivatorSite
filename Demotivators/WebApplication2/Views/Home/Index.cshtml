@@ -6,17 +6,22 @@
 }
 
 <div class="jumbotron">
-    <h1 align="center">This site is magnificent!</h1>
+	<h1 align="center">This site is magnificent!</h1>
 </div>
 
+<table class="table">
+<tbody>
+	@foreach (var item in Model)
+	{
+		<tr>
+			<td>@Html.ActionLink(item.Name_Item, "Details", "Item", new { id = item.Id }, null)</td>
+			<td>@item.AspNetUsers.UserName</td>
+		</tr>
+	}
+		<!--<li>
+			Html.ActionLink(item.Name_Item, "Details", "Item", new { id = item.Id }, null)---------item.AspNetUsers.UserName
+		</li>-->
 
-
-	       @foreach (var item in Model) {
-
-		<li>
-			@Html.ActionLink(item.Name_Item, "Details", "Item", new { id = item.Id }, null)---------@item.AspNetUsers.UserName
-		</li>
-       }
+	</tbody>
+	</table>
 	
-
-
