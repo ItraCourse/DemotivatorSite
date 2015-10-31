@@ -81,8 +81,14 @@
 				<input type="button" value="Preview" id="textin" class="btn btn-default" />
             </div>
         </div>
-    </div>
+<!--ADD-->
+			<form id="fileUpload" action="@Url.Action("AddImage")" method="POST" enctype="multipart/form-data">
+				<input id="fileInput" type="file" />
+				<input type="button" value="Upload file" id="btnFileUpload" />	
+			</form>
+</div>
 }
+<img id="ir">
 
 <div>
     @Html.ActionLink("Back to List", "Index")
@@ -92,4 +98,63 @@
 <script src="~/Scripts/ItemCreate.js"></script>
 @section Scripts {
 	@Scripts.Render("~/bundles/jqueryval")
+
+<script type="text/javascript">
+
+	$("#btnFileUpload").on('click', function (e) {
+		e.preventDefault();
+		var files = document.getElementById('uploadFile').files;
+		if (files.length > 0) {
+			if (window.FormData !== undefined) {
+				var data = new FormData();
+				for (var x = 0; x < files.length; x++) {
+					data.append("file" + x, files[x]);
+				}
+
+				$.ajax({
+					type: "POST",
+					url: "/Item/Upload",
+					contentType: false,
+					processData: false,
+					data: data,
+					success: function (result) {
+						alert("Success");
+					},
+					error: function (xhr, status, p3) {
+						alert(xhr.responseText);
+					}
+				});
+			} else {
+				alert("Браузер не поддерживает загрузку файлов HTML5!");
+			}
+		}
+	});
+</script>
+
+<!--<script type="text/javascript">
+
+	$("#btnFileUpload").click(function () {
+		var formData = new FormData();
+		var file = document.getElementById("fileInput").files[0];
+		formData.append("fileInput", file);
+
+		$.ajax({
+			url: "/Item/Upload",
+			type: "POST",
+			data: formData,
+			contentType: false,
+			processData: false,
+			success: function (data) {
+				document.getElementById("ir").setAttribute("src", data.Uri)
+				alert(data.Uri);
+			}
+		});
+	});
+
+</script>-->
+
+
+
 }
+
+

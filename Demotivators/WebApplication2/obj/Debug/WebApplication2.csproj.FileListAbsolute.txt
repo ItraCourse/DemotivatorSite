@@ -301,3 +301,5 @@ C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\SassAndCoffee.AspNet.
 C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\SassAndCoffee.Core.dll
 C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\SassAndCoffee.JavaScript.dll
 C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\SassAndCoffee.Ruby.dll
+C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\Cloudinary.dll
+C:\GIT_MY\DemotivatorSite\Demotivators\WebApplication2\bin\CloudinaryDotNet.dll
